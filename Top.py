@@ -1,0 +1,16 @@
+import streamlit as st
+
+st.title("🥊b-monアナライザ")
+st.subheader("これはb-monsterの記録を可視化するアプリです。")
+st.write("受講結果を登録して自分の受講傾向を分析しましょう。")
+st.write("ページ構成は以下のようになっています。")
+st.divider()
+st.write("Top : トップページ（このページ）")
+st.write("page 1 : 登録・編集・削除画面のページ")
+st.write("page 2 : 記録一覧の表示ページ")
+st.write("page 3 : 受講傾向の分析結果の表示ページ")
+st.divider()
+st.subheader("更新履歴")
+st.write("2025.12.1&emsp;公開しました。")
+st.divider()
+st.caption("© 2025 b-mon Analyzer | Streamlit + Matplotlib + Seaborn")
